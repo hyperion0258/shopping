@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shopping</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__nav">
+      <div class="header__nav--top">
+        <ul class="header__nav--top-items">
+          <li class="header__nav--top-item">
+            회원가입
+          </li>
+          <li class="header__nav--top-item">
+            로그인
+          </li>
+          <li class="header__nav--top-item">
+            장바구니
+          </li>
+          <li class="header__nav--top-item">
+            마이페이지
+          </li>
+          <li class="header__nav--top-item">
+            고객센터
+          </li>
+        </ul>
+      </div>
+      <div class="header__nav--middle">
+        <div class="header__nav--middle-title">
+          shoes
+        </div>
+      </div>
+      <div class="header__nav--bottom">
+        <ul class="header__nav--bottom-items">
+          <li class="header__nav--bottom-item">
+            BRAND
+          </li>
+          <li class="header__nav--bottom-item">
+            MEN
+          </li>
+          <li class="header__nav--bottom-item">
+            WOMEN
+          </li>
+          <li class="header__nav--bottom-item">
+            KIDS
+          </li>
+          <li class="header__nav--bottom-item">
+            SALE
+          </li>
+        </ul>
+        <div class="header__nav--bottom-search-container">
+          <input class="header__nav--bottom-search" placeholder="검색">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/shoes1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/shoes2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/shoes3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="main__first">
+      <div class="main__first--title-container">
+        <div class="main__first--title">
+          BRAND
+        </div>
+      </div>
+
+      <div class="main__first--item-container">
+        <div class="main__first--items">
+          <div class="main__first--item">
+            <div class="main__first--item-first-thumbnail">
+
+            </div>
+            <div class="main__first--item-first-title">
+              red shoes
+            </div>
+            <div class="main__first--item-first-price">
+              19,800원
+            </div>
+          </div>
+          <div class="main__first--item">
+            <div class="main__first--item-second-thumbnail">
+
+            </div>
+            <div class="main__first--item-second-title">
+              blue shoes
+            </div>
+            <div class="main__first--item-second-price">
+              29,800원
+            </div>
+          </div>
+          <div class="main__first--item">
+            <div class="main__first--item-third-thumbnail">
+
+            </div>
+            <div class="main__first--item-third-title">
+              white shoes
+            </div>
+            <div class="main__first--item-third-price">
+              39,800원
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div>
+      Copyright 2023 김희윤 - All rights reserved
+    </div>
+  </footer>
+</body>
+
+</html>
